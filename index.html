@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en">
   <head>
     <!--<meta charset="UTF-8">-->
@@ -8,9 +9,15 @@
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
     <!--Code for linking css file -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <!--<script src="https://cdn.tailwindcss.com"></script>-->
   </head>
   <body>
     <!--header section-->
@@ -92,7 +99,7 @@
             <a href="#" class="btn"> read more </a>
           </div>
           <div class="box">
-            <img src="/cart1.jpeg" height="350 350" />
+            <img src="/cart1.jpeg" height="400 400" />
             <h3>Free Delivey</h3>
             <p>
               Lorem, Ipsum Doler Sit Amet Consectrtur Adipisicing Elit.
@@ -101,7 +108,7 @@
             <a href="#" class="btn"> read more </a>
           </div>
           <div class="box">
-            <img src="/cart2.jpeg" height="350 350" />
+            <img src="/cart2.jpeg" height="450 450" />
             <h3>Easy payments</h3>
             <p>
               Lorem, Ipsum Doler Sit Amet Consectrtur Adipisicing Elit.
@@ -114,9 +121,9 @@
 
       <section class="products" id="products">
         <h1 class="heading">our <samp> products </samp></h1>
-        <div class="product-slider">
-          <div class="wrapper">
-            <div class="box">
+        <div class="swiper product-slider">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide box">
               <img src="./orange.jpeg" height="400 400" />
               <h1>Fresh orange</h1>
               <div class="price">$12.99/- - 15.99/-<</div>
@@ -129,46 +136,215 @@
               <a href="" class="btn"> add to cart </a>
             </div>
           </div>
-          <div class="box">
-            <img src="./orange.jpeg" height="400 400" />
+
+          <div class="swiper-slide box">
+            <img src="./onion.jpeg" height="400 400" />
             <h1>Fresh orange</h1>
             <div class="price">$12.99/- - 15.99/-<</div>
             <div class="stars">
               <i class="fa fa-star"></i>
               <i class="fa fa-star"></i>
               <i class="fa fa-star"></i>
-              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half"></i>
             </div>
             <a href="" class="btn"> add to cart </a>
           </div>
-          <div class="box">
-            <img src="./orange.jpeg" height="400 400" />
+
+          <div class="swiper-slide box">
+            <img src="./banana.jpeg" height="400 400" />
             <h1>Fresh orange</h1>
             <div class="price">$12.99/- - 15.99/-<</div>
             <div class="stars">
               <i class="fa fa-star"></i>
               <i class="fa fa-star"></i>
               <i class="fa fa-star"></i>
-              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half"></i>
             </div>
             <a href="" class="btn"> add to cart </a>
           </div>
-          <div class="box">
-            <img src="./orange.jpeg" height="400 400" />
+
+          <div class="swiper-slide box">
+            <img src="./fulcobi.jpeg" height="400 400" />
             <h1>Fresh orange</h1>
             <div class="price">$12.99/- - 15.99/-<</div>
             <div class="stars">
               <i class="fa fa-star"></i>
               <i class="fa fa-star"></i>
               <i class="fa fa-star"></i>
+              <i class="fa fa-star-half"></i>
+            </div>
+            <a href="" class="btn"> add to cart </a>
+          </div>
+
+          <div class="swiper-slide box">
+            <img src="./pattacobi.jpeg" height="400 400" />
+            <h1>Fresh orange</h1>
+            <div class="price">$12.99/- - 15.99/-<</div>
+            <div class="stars">
               <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half"></i>
+            </div>
+            <a href="" class="btn"> add to cart </a>
+          </div>
+
+          <div class="swiper-slide box">
+            <img src="./kakdi.jpeg" height="400 400" />
+            <h1>Fresh orange</h1>
+            <div class="price">$12.99/- - 15.99/-<</div>
+            <div class="stars">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half"></i>
+            </div>
+            <a href="" class="btn"> add to cart </a>
+          </div>
+
+          <div class="swiper-slide box">
+            <img src="./kakdi.jpeg" height="400 400" />
+            <h1>Fresh orange</h1>
+            <div class="price">$12.99/- - 15.99/-<</div>
+            <div class="stars">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half"></i>
             </div>
             <a href="" class="btn"> add to cart </a>
           </div>
         </div>
       </section>
 
-      <!--<div class="shopping-cart">
+      <section class="categories" id="categories">
+        <h1 class="heading">products <samp> categories </samp></h1>
+        <div class="box-container">
+          <div class="box">
+            <img src="/vegetables.jpeg" height="400 4000" />
+            <h3>Vegetables</h3>
+            <p>Upto 45% Off</p>
+            <a href="" class="btn"> shop now </a>
+          </div>
+          <div class="box">
+            <img src="/fruits.jpeg" height="400 4000" />
+            <h3>Vegetables</h3>
+            <p>Upto 45% Off</p>
+            <a href="" class="btn"> shop now </a>
+          </div>
+          <div class="box">
+            <img src="/product.jpeg" height="400 4000" />
+            <h3>Vegetables</h3>
+            <p>Upto 45% Off</p>
+            <a href="" class="btn"> shop now </a>
+          </div>
+          <div class="box">
+            <img src="/kirana.jpeg" height="400 4000" />
+            <h3>Vegetables</h3>
+            <p>Upto 45% Off</p>
+            <a href="" class="btn"> shop now </a>
+          </div>
+        </div>
+      </section>
+      <section class="review" id="review">
+        <h1 class="heading">customer's <samp> review </samp></h1>
+
+        <div class="swiper review-slider">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide box">
+              <img src="/kirana.jpeg" height="400 4000" />
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde
+                sunt fugiat dolore ipsum id est maxime ad tempore quasi tenetur.
+              </p>
+              <h3>John deo</h3>
+              <div class="stars">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half"></i>
+              </div>
+            </div>
+
+            <div class="swiper-slide box">
+              <img src="/kirana.jpeg" height="400 4000" />
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde
+                sunt fugiat dolore ipsum id est maxime ad tempore quasi tenetur.
+              </p>
+              <h3>John deo</h3>
+              <div class="stars">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half"></i>
+              </div>
+            </div>
+            <div class="swiper-slide box">
+              <img src="/kirana.jpeg" height="400 4000" />
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde
+                sunt fugiat dolore ipsum id est maxime ad tempore quasi tenetur.
+              </p>
+              <h3>John deo</h3>
+              <div class="swiper-slide stars">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half"></i>
+              </div>
+            </div>
+            <div class="swiper-slide box">
+              <img src="/kirana.jpeg" height="400 4000" />
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde
+                sunt fugiat dolore ipsum id est maxime ad tempore quasi tenetur.
+              </p>
+              <h3>John deo</h3>
+              <div class="stars">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half"></i>
+              </div>
+            </div>
+            <div class="swiper-slide box">
+              <img src="/kirana.jpeg" height="400 4000" />
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde
+                sunt fugiat dolore ipsum id est maxime ad tempore quasi tenetur.
+              </p>
+              <h3>John deo</h3>
+              <div class="stars">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half"></i>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">Slide 1</div>
+          <div class="swiper-slide">Slide 2</div>
+          <div class="swiper-slide">Slide 3</div>
+          <div class="swiper-slide">Slide 4</div>
+          <div class="swiper-slide">Slide 5</div>
+          <div class="swiper-slide">Slide 6</div>
+          <div class="swiper-slide">Slide 7</div>
+          <div class="swiper-slide">Slide 8</div>
+          <div class="swiper-slide">Slide 9</div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+
+      <!--<div class="shopping-cart"
       <div class="box">
         <img src="./cart.jpeg" height="400px" width="400px" />
         <img src="https://placehold.co/400" />
@@ -177,6 +353,7 @@
       </div>
     </div>-->
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="script.js"></script>
   </body>
 </html>
